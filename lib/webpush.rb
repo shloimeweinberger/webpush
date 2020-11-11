@@ -54,7 +54,7 @@ module Webpush
     end
 
     def encode64(bytes)
-      Base64.urlsafe_encode64(bytes)
+      Base64.encode64(bytes)
     end
 
     def decode64(str)
